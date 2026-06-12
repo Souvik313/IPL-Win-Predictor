@@ -10,22 +10,20 @@ Inspired by Cricbuzz-style live prediction systems.
 
 ### Frontend
 
-(Add your deployed Vercel URL)
-
 ```text
-https://your-frontend-url.vercel.app
+https://ipl-win-predictor-omega-three.vercel.app/
 ```
 
 ### Backend API
 
 ```text
-https://your-backend-url.onrender.com
+https://ipl-win-predictor-233z.onrender.com
 ```
 
 ### API Documentation
 
 ```text
-https://your-backend-url.onrender.com/docs
+https://ipl-win-predictor-233z.onrender.com/docs
 ```
 
 ---
