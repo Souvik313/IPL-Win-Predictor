@@ -10,7 +10,7 @@ import { teams, cities } from "../data/teams";
 
 function PredictorForm() {
   const [result, setResult] = useState(null);
-  const [loading , setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     batting_team: "",
     bowling_team: "",
@@ -35,9 +35,10 @@ function PredictorForm() {
     e.preventDefault();
 
     try {
-        setLoading(true);
+      setLoading(true);
+
       const res = await axios.post(
-        "http://127.0.0.1:8000/predict",
+        "https://ipl-win-predictor-233z.onrender.com/predict",
 
         {
           ...form,
@@ -57,9 +58,12 @@ function PredictorForm() {
       );
 
       setResult(res.data.win_probability);
-      setLoading(false);
-    } catch {
+    } catch (err) {
+      console.error(err);
+
       alert("Prediction failed");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -108,7 +112,9 @@ function PredictorForm() {
 
         <input name="rrr" placeholder="RRR" onChange={handle} />
 
-        <button disabled={loading}>{loading ? "Predicting..." : "Predict"}</button>
+        <button disabled={loading}>
+          {loading ? "Predicting..." : "Predict"}
+        </button>
       </form>
 
       {result !== null && <ProbabilityCard probability={result} />}
