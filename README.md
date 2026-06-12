@@ -177,17 +177,17 @@ Reason:
 
 ## Home Screen
 
-![IPL Win Predictor Home Screen](<Screenshot 2026-06-12 221920.png>)
+![IPL Win Predictor Home Screen](./images//home_screen.png)
 ---
 
 ## Prediction Result
 
-![Prediction Output Dashboard](<Screenshot 2026-06-12 222041.png>)
+![Prediction Output Dashboard](./images/prediction_result.png)
 ---
 
 ## API Swagger Docs
 
-![FastAPI Swagger Docs](<Screenshot 2026-06-12 222121.png>)
+![FastAPI Swagger Docs](./images/swagger_docs.png)
 ---
 
 # 🖥️ Tech Stack

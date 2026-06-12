@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import joblib
 import numpy as np
 import pandas as pd
-from schemas import MatchInput
+from app.schemas import MatchInput
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="IPL Win Predictor")
