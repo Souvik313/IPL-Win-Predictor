@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from pathlib import Path
 import joblib
 import numpy as np
 import pandas as pd
@@ -13,8 +14,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"]
 )
+BASE_DIR = Path(__file__).resolve().parent
 
-model = joblib.load("ipl_win_predictor.pkl")
+MODEL_PATH = BASE_DIR / "ipl_win_predictor.pkl"
+
+model = joblib.load(MODEL_PATH)
 
 @app.get("/")
 def home():
