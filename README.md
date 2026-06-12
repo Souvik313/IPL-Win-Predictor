@@ -177,20 +177,17 @@ Reason:
 
 ## Home Screen
 
-(Add Screenshot)
-
+![IPL Win Predictor Home Screen](<Screenshot 2026-06-12 221920.png>)
 ---
 
 ## Prediction Result
 
-(Add Screenshot)
-
+![Prediction Output Dashboard](<Screenshot 2026-06-12 222041.png>)
 ---
 
 ## API Swagger Docs
 
-(Add Screenshot)
-
+![FastAPI Swagger Docs](<Screenshot 2026-06-12 222121.png>)
 ---
 
 # 🖥️ Tech Stack
