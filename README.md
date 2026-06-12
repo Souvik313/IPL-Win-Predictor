@@ -364,13 +364,13 @@ Souvik Roy
 GitHub:
 
 ```text
-Add GitHub Profile
+https://github.com/Souvik313
 ```
 
 LinkedIn:
 
 ```text
-Add LinkedIn URL
+https://www.linkedin.com/in/souvik-roy-a8ab04337
 ```
 
 ---
